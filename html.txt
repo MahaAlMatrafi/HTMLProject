@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>دورة html</title> 
+<style>
+table, th, td{
+border: 1px solid black;
+}
+
+</style>
+</head>
+<body dir="rtl">
+<h1>دورة html</h1> <!-- title-->
+<img src="html.png" height="150" width="150" alt="html logo">
+<h2>وصف الدورة</h2><!-- sub title-->
+<p> <!-- description-->
+لغة<strong> HTML </strong> هي طريقة لكتابة وهيكلة صفحات الويب، ولاتعتبر <b>HTML</b> لغة برمجية بالمعنى الفعلي بل هي لغة وصفيّة، أي أنها تستخدم لوصف الصفحة وتوزيع وترتيب محتواها من نصوص وروابط وصور ومقاطع فيديو وما إلى ذلك، وهي المكون الرئيسي لأي موقع ويب، تستخدم HTML مايسمى بالوسوم أو <em>Tags </em>وهي عبارة عن رموز لكل منها مهمة خاصة يقوم بها، فمنها ما يقوم بعرض العنوان ومنها ما يقوم بعرض النصوص ومنها ما يقوم بعرض الصور أو الروابط أو مقاطع الفيديو وهكذا، والمتصفح يفهم هذه الرموز أو الوسوم ويعرضها بالشكل المحدد والمطلوب.
+
+</p>
+
+<p> <b>مواعيد المحاضرات يوميا:</b><br>
+من الساعة
+8:00 <sub>am</sub>
+و حتى الساعة
+11:00<sub>am</sub>
+</p>
+<p> <b>المستويات لهذه الدورة</b><br>
+1<sup>st</sup> level:اساسيات html<br>
+2<sup>nd</sup> level:مفاهيم متقدمة في html
+</p> <hr>
+<h2>اهداف هذه الدورة</h2>
+<ol type="i">
+<li>التعرف على مفهوم html</li>
+<li>و الغرض من استخدامه tag تعلم كل</li>
+<li>طرق اضافة النصوص, الفيديوهات, و غيرها من المحتويات المعتاده في صفحات الويب</li>
+</ol>
+<h2>متطلبات هذه الدورة</h2>
+<ul type="circle">
+<li>متصفح(سفاري, قوقل كروم)</li>
+<li>محرر نصوص</li>
+</ul>
+<p><a href="https ://dev.w3.org/html5/spec-LC/">للمرجع قم بالضغط </a>هنا </p>
+<video width="700" height="500" controls>
+<source src="vid.mp4" type="video/mp4">
+عذرا, لا يمكن عرض هذا الفيديو
+</video>
+<audio controls>
+<source src="sparkle.mp3" type="audio/mp3">
+</audio>
+<table>
+<caption>جدول اماكن المحاضرات</caption>
+<tr>
+<th>اليوم</th>
+<th>المكان</th>
+</tr>
+
+<tr>
+<td>الأحد و الأثنين</td>
+<td>Class A</td>
+</tr>
+<tr>
+<td>الثلثاء و الأربعاء</td>
+<td>Class B</td>
+</tr>
+
+<tr>
+<td colspan="2">الخميس عن بعد</td>
+</tr>
+
+</table>
+<hr>
+<h2>نموذج الانضمام للدورة</h2>
+<form>
+<label for="name">اسم المستخدم</label>
+<input type="text" id="name">
+<p>الجنس:</p>
+<input type="radio" id="male" name="gender">
+<label for="male">ذكر</lable>
+<input type="radio" id="female" name="gender">
+<label for="female">انثى</lable>
+<p>من اين سمعت عن HTML</p>
+<input type="checkbox" id="friend" name="friend">
+<lable for="friend">صديق</label><br>
+<input type="checkbox" id="books" name="books">
+<lable for="books">كتب</label><br>
+<input type="checkbox" id="social media" name="social media">
+<lable for="social media">مواقع التواصل الاجتماعي</label><br>
+<label for="city">اختر مدينتك:</label>
+<select id="city" name="city">
+<option value="Riyadh">الرياض</option>
+<option value="Jeddah">جدة</option>
+<option value="Dammam">الدمام</option>
+</select><br><br>
+<input type="submit" value="انضمام">
+</form>
+
+</body>
+</html>
